@@ -19,5 +19,5 @@ hosted on https://datahub.io/machine-learning, but no longer accessible.
 
 The [PatchCamelyon dataset](https://patchcamelyon.grand-challenge.org/) is used in the first Deep Learning notebook.
 A subset of the original dataset is used for the course, which consists of the following files:
-- `camelyonpatch_split_<train/valid/test>.h5.gz`: Training/validation/test dataset (features + labels). For the training set, 5% of the original dataset is randomly sampled. For the other datasets, a fixed subset of 10000 records is taken.
+- `camelyonpatch_split_<train/valid/test>.h5.gz`: Training/validation/test dataset (features + labels). For the training set, 5% of the original dataset is randomly sampled. For the other datasets, a fixed subset of 1000 records is taken.
 - `camelyon-tiles.zip`: A larger tile of an original image, used to demonstrate the Camelyon heatmap code.

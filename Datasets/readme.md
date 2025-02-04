@@ -21,3 +21,11 @@ The [PatchCamelyon dataset](https://patchcamelyon.grand-challenge.org/) is used 
 A subset of the original dataset is used for the course, which consists of the following files:
 - `camelyonpatch_split_<train/valid/test>.h5.gz`: Training/validation/test dataset (features + labels). For the training set, 5% of the original dataset is randomly sampled. For the other datasets, a fixed subset of 1000 records is taken.
 - `camelyon-tiles.zip`: A larger tile of an original image, used to demonstrate the Camelyon heatmap code.
+
+### pneumothorax.zip
+
+The [SIIM-ACR Pneumothorax segmentation dataset](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/data) is used in the second Deep Learning notebook. 
+The dataset originally belonged to a 2-stage challenge. For the notebook, only the data from the first stage is used.
+This dataset contains 10675 training samples and 1372 test samples (samples other than PA/AP view were dropped). 
+The original resolution is 1024px, but the dataset has been resampled to 224px. 
+The DICOM x-rays and run-length-encoded (RLE) masks have been converted to PNG images.
